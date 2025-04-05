@@ -13,3 +13,7 @@ venom
   .catch((erro) => {
     console.error('❌ Gagal start bot:', erro);
   });
+
+setInterval(() => {
+  console.log('Ping!');
+}, 60000); // 60000 milidetik = 1 menit
