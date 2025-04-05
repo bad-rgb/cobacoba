@@ -1,0 +1,6 @@
+# Ignore folder token (tempat file session/token)
+tokens/
+token/
+session/
+*.json
+.env
