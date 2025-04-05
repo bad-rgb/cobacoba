@@ -1,11 +1,13 @@
 {
-  "name": "wa-goodnight-bot",
+  "name": "my-bot",
   "version": "1.0.0",
+  "description": "Bot WhatsApp dengan scheduler",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "venom-bot": "^5.3.0"
+    "whatsapp-web.js": "^1.21.1",  
+    "node-schedule": "^2.1.0"
   }
 }
